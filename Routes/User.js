@@ -1,7 +1,7 @@
 const express=require("express")
 const routes=express.Router()
 const {Register,Login}=require("../controller/UserController")
-routes.get("/Register",Register)
+routes.post("/Register",Register)
 routes.get("/Login",Login)
 
 

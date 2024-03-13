@@ -1,5 +1,5 @@
 const Register=(req,res)=>{
-    res.send("resgiter")
+    res.send(req.body)
 }
 const Login=(req,res)=>{
     res.send("Login")
