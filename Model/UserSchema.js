@@ -9,6 +9,18 @@ const Userschema =mongoose.Schema({
         type:String,
         required:true
     },
+    RepeatPassword:{
+        type:String,
+        required:true
+    },
+    Age:{
+        type:Number,
+        required:true
+    },
+    Contact:{
+        type:Number,
+        required:true
+    },
     Gender:{
         type:String,
         required:true
